@@ -25,7 +25,7 @@ if($message['type']=='sticker')
 							'messages' => array(
 								array(
 										'type' => 'text',									
-										'text' => 'Terima Kasih Stikernya.'										
+										'text' => 'Ahh 4p4nchin 4la41 134nget deg ngirim stiker ya gak bos@degus'										
 									
 									)
 							)
