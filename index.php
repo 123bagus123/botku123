@@ -32,6 +32,23 @@ if($message['type']=='sticker')
 						);
 						
 }
+
+if($message['type']=='voice')
+{	
+	$balas = array(
+							'UserID' => $profil->userId,	
+                                                        'replyToken' => $replyToken,							
+							'messages' => array(
+								array(
+										'type' => 'voice',									
+										'voice' => 'https://www.youtube.com/watch?v=ZMsvwwp6S7Q'										
+									
+									)
+							)
+						);
+						
+}
+
 else
 $pesan=str_replace(" ", "%20", $pesan_datang);
 $key = '31f5dd09-49fe-4508-8c36-715d5d23bdc9';//API SimSimi
